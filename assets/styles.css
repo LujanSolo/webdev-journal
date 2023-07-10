@@ -1,4 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: grid;
+}
+
+.grid-header {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+}
+
 .article-image-hero {
   width: 25.875rem;
   height: 18.3125rem;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+li {
+  list-style: none;
 }
