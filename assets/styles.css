@@ -7,3 +7,21 @@ body {
   margin: 0;
   padding: 0;
 }
+
+#frontPage {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+    "hero hero hero"
+    "blog-one blog-two blog-three"
+    "blog-four blog-five blog-six";
+}
+
+#hero {
+  grid-area: hero;
+  background-image: url("./images/blog-image-hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
